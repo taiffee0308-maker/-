@@ -2,3 +2,6 @@ __pycache__/
 *.pyc
 .venv/
 venv/
+
+# 注文データ・生成成果物（ローカル/本番固有）
+data/
