@@ -46,3 +46,9 @@ DISCORD_WEBHOOK_URL="https://discord.com/api/webhooks/..." python scripts/daily_
 - `LOOKBACK_HOURS`: 何時間前までの記事を対象にするか
 
 配信時刻を変更する場合は `.github/workflows/daily-news.yml` の cron 式を UTC で指定。
+
+---
+
+## その他のツール
+
+- **AI サービス自前ストア（注文→生成→納品 全自動）**: `scripts/monetize/` — 翻訳 / SEO 記事 / ロゴ(SVG) / 文字起こしを商品化し、Stripe・Gumroad の決済から無人で納品まで回すパイプライン。詳細は [`scripts/monetize/README.md`](scripts/monetize/README.md)。
